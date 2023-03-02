@@ -1,4 +1,4 @@
-# microphaze-z7
+# MicroPhase-z7
 source files for MicroPhase Z7 board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
 
 ![MicroPhaseZ7](photos/photo_izo.jpg)
