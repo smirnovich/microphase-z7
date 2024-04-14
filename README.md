@@ -1,4 +1,5 @@
 # MicroPhase-z7
+
 source files for MicroPhase Z7 board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
 
 ![MicroPhaseZ7](photos/photo_izo.jpg)
@@ -6,7 +7,7 @@ source files for MicroPhase Z7 board, [AliExpress-avaliable](https://aliexpress.
 
 ## Board features
 
-- Zynq 7010/20 
+- Zynq 7010/20 (xc7z020clg400-2)
 - microSD card slot (PS)
 - 4Gbit DDR3 MT41J256M16 RE-125 (PS)
 - USB Host 3320C-EZK(PS)
@@ -16,10 +17,16 @@ source files for MicroPhase Z7 board, [AliExpress-avaliable](https://aliexpress.
 - Leds and Buttons (PS/PL)
 - USB type-C UART to ZYNQ
 - USB type-C JTAG
-- two GPIO 2x20 
-- full of examples from AliExpress-seller (Vivado 2018.3)
+- two GPIO 2x20
+- full of examples from AliExpress-seller (Vivado 2018.3, need to be requested)
 
+## Project list
+All projects created in non-project mode with Vivado 2023.2. To 
+
+- PS templates
+  - [`pure_eth`](/pure_eth/) - connecting RTL8201 to PS-Ethernet controller through EMIO
 
 ## TODO
+
 - [ ] Vivado example project for PL part
 - [ ] Vivado example project for PS part
