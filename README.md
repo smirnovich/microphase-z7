@@ -1,6 +1,6 @@
-# MicroPhase-z7
+# MicroPhase z7-Lite
 
-source files for MicroPhase Z7 board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
+source files for MicroPhase Z7 Lite board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
 
 ![MicroPhaseZ7](photos/photo_izo.jpg)
 <img src="photos/photo_top.jpg"  width=50%> <img src="photos/photo_bottom.jpg"  width=49%>
@@ -30,3 +30,4 @@ All projects created in non-project mode with Vivado 2023.2. To
 
 - [ ] Vivado example project for PL part
 - [ ] Vivado example project for PS part
+- [ ] Vitis example project for PS part (tbd)
