@@ -1,0 +1,6 @@
+*
+!*.md
+!*.v
+!*.sv
+!*.tcl
+!.gitignore

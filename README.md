@@ -21,10 +21,12 @@ source files for MicroPhase Z7 Lite board, [AliExpress-avaliable](https://aliexp
 - full of examples from AliExpress-seller (Vivado 2018.3, need to be requested)
 
 ## Project list
-All projects created in non-project mode with Vivado 2023.2. To 
+All projects created in non-project mode with Vivado 2023.1.
 
 - PS templates
-  - [`pure_eth`](/pure_eth/) - connecting RTL8201 to PS-Ethernet controller through EMIO
+  - [`01_pure_eth`](/01_pure_eth/) - connecting RTL8201 to PS-Ethernet controller through EMIO
+  - [`02_custom_axi_slave`](/02_custom_axi_slave/) - Adding custom low-spee AXI peripheral for data gathering and streaming via Ethernet
+
 
 ## TODO
 
