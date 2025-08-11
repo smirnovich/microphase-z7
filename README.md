@@ -1,13 +1,14 @@
 # MicroPhase z7-Lite
 
-source files for MicroPhase Z7 Lite board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
+This repository is devoted to simple examples for MicroPhase Z7 Lite board, [AliExpress-avaliable](https://aliexpress.ru/item/1005002542001122.html?spm=a2g2w.orderdetail.0.0.45344aa6H0Hokr&sku_id=12000021066812071).
+Basic examples are also available directly from [MicroPhase](https://fpga-docs.microphase.cn/en/latest/DEV_BOARD/Z7-LITE/Z7-Lite_Reference_Manual.html), taking into account that the examples are for Vivado 2018.3.
 
 ![MicroPhaseZ7](photos/photo_izo.jpg)
 <img src="photos/photo_top.jpg"  width=50%> <img src="photos/photo_bottom.jpg"  width=49%>
 
 ## Board features
 
-- Zynq 7010/20 (xc7z020clg400-2)
+- Zynq 7010/20 (xc7z010-1clg400c/xc7z020-1clg400c)
 - microSD card slot (PS)
 - 4Gbit DDR3 MT41J256M16 RE-125 (PS)
 - USB Host 3320C-EZK(PS)
