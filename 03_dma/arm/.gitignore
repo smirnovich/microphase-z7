@@ -1,4 +1,5 @@
 *
+!/app_dma
 !.gitignore
 !*.md
 !*.v
