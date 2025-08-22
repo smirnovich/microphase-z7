@@ -4,3 +4,4 @@
 !*.sv
 !*.tcl
 !.gitignore
+!/data_gen

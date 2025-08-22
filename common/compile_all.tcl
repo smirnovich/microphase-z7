@@ -1,3 +1,4 @@
+generate_target all [get_files $TclPath/top_bd_gen/top_bd_zynq/top_bd_zynq.bd]
 synth_design
 opt_design
 place_design

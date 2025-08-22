@@ -34,7 +34,9 @@ module top
     ETH_TXCK,
     ETH_TXCTL,
   //  GMII_ETH_tx_er,
-    ETH_TXD);
+    ETH_TXD,
+    PL_LED1
+    );
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -69,7 +71,7 @@ module top
   output [0:0]ETH_TXCTL;
 //  output [0:0]GMII_ETH_tx_er;
   output [7:0]ETH_TXD;
-
+  output PL_LED1;
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
   wire DDR_cas_n;
@@ -107,7 +109,7 @@ module top
   wire [0:0]ETH_TXCTL;
 //  wire [0:0]GMII_ETH_tx_er;
   wire [3:0]ETH_TXD;
-
+  wire PL_LED1;
   IOBUF ETH_MDIO_mdio_iobuf
        (.I(ETH_MDIO_mdio_o),
         .IO(ETH_MDIO_mdio_io),
@@ -149,5 +151,6 @@ module top
         .GMII_ETH_tx_clk(ETH_TXCK),
         .GMII_ETH_tx_en(ETH_TXCTL),
     //    .GMII_ETH_tx_er(GMII_ETH_tx_er),
-        .GMII_ETH_txd(ETH_TXD));
+        .GMII_ETH_txd(ETH_TXD),
+        .PL_LED1(PL_LED1));
 endmodule
