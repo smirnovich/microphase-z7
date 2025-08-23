@@ -24,13 +24,14 @@ Basic examples are also available directly from [MicroPhase](https://fpga-docs.m
 ## Project list
 All projects created in non-project mode with Vivado 2023.1.
 
-- PS templates
-  - [`01_pure_eth`](/01_pure_eth/) - connecting RTL8201 to PS-Ethernet controller through EMIO
-  - [`02_custom_axi_slave`](/02_custom_axi_slave/) - Adding custom low-spee AXI peripheral for data gathering and streaming via Ethernet
+- [x] [`01_pure_eth`](/01_pure_eth/) - connecting RTL8201 to PS-Ethernet controller through EMIO (bare-metal)
+- [x] [`02_custom_axi_slave`](/02_custom_axi_slave/) - Adding custom low-speed AXI peripheral for data gathering and streaming via Ethernet (bare-metal)
+- [x] [`03_dma`](/03_dma/) - Launching simple DMA example (bare-metal)
+- [ ] [`04_sgdma`](/04_sgdma/) - Expanding `03` project to Scatter-Gather DMA mode  
+  - [ ] bare-metal example
+  - [ ] Linux example (Buildroot)
+- [ ] [`05_vdma`](/05_vdma/) - Implementing examples for onboard HDMI and frame-buffer interaction  
+  - [ ] bare-metal example
+  - [ ] Linux example (Buildroot)
 
 
-## TODO
-
-- [ ] Vivado example project for PL part
-- [ ] Vivado example project for PS part
-- [ ] Vitis example project for PS part (tbd)
