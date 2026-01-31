@@ -1,0 +1,7 @@
+*
+!*.md
+!*.v
+!*.sv
+!*.tcl
+!.gitignore
+!/data_gen

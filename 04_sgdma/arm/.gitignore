@@ -1,0 +1,7 @@
+*
+!/app_dma
+!.gitignore
+!*.md
+!*.v
+!*.sv
+!*.tcl

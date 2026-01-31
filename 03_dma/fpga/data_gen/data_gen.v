@@ -78,6 +78,7 @@ module data_gen
              .csr_control_mode_out(csr_control_mode_out),
              .csr_control_ignoreready_out(csr_control_ignoreready_out),
              .csr_increment_value_out(csr_increment_value_out),
+             .csr_burstlength_value_out(csr_burstlength_value_out),
              .axil_awaddr(axil_awaddr),
              .axil_awprot(axil_awprot),
              .axil_awvalid(axil_awvalid),
@@ -107,7 +108,7 @@ module data_gen
                   //    .csr_control_mode_in(csr_control_mode_in),
                       .control_mode(csr_control_mode_out),
                       .increment_value(csr_increment_value_out),
-
+                      .burstlength_value(csr_burstlength_value_out),
                       .axis_tdata(axis_tdata),
                       .axis_tlast(axis_tlast),
                       .axis_tvalid(axis_tvalid),

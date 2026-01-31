@@ -5,6 +5,9 @@ put $TclPath
 
 source ./../../common/setup.tcl
 
+add_files -norecurse ./../../03_dma/fpga/data_gen/data_gen_core.sv
+add_files -norecurse ./../../03_dma/fpga/data_gen/data_gen.v
+add_files -norecurse ./../../03_dma/fpga/data_gen/hw/regs.v
 source ./top_bd_zynq.tcl
 
 generate_target all [get_files $TclPath/top_bd_gen/top_bd_zynq/top_bd_zynq.bd]
